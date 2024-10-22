@@ -1,0 +1,15 @@
+{
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "release-it-pnpm": {}
+  },
+  "git": {
+    "commitMessage": "chore(🚀): release v${version}",
+    "tagName": "v${version}"
+  }
+}
